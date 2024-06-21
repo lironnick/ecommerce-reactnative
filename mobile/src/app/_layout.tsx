@@ -35,7 +35,7 @@ export default function Layout() {
         headerRight: () => <CartButton />,
       }}
     >
-      <Stack.Screen name="index" options={{ headerShown: true, headerTitle: 'Ecom' }} />
+      <Stack.Screen name="index" options={{ headerShown: true, headerTitle: 'Ecommercer' }} />
       <Stack.Screen name="(detail)" options={{ headerTitle: '' }} />
       <Stack.Screen name="cart" options={{ headerShown: false, presentation: 'modal' }} />
     </Stack>

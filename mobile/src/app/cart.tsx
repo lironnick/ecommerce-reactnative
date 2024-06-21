@@ -91,7 +91,7 @@ export default function Cart() {
                 />
                 <View className="flex-1">
                   <Text className="text-base font-bold">{item.product_name}</Text>
-                  <Text>Price: ${item.product_price}</Text>
+                  <Text>Preço: R${item.product_price}</Text>
                 </View>
 
                 <View className="flex-row items-center">
@@ -115,7 +115,7 @@ export default function Cart() {
 
           <TextInput
             className="border-2 border-gray-200 rounded-md p-3 mt-3"
-            placeholder="Enter your email"
+            placeholder="Entre com seu email"
             onChangeText={setEmail}
           />
           <TouchableOpacity

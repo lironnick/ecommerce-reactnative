@@ -55,7 +55,7 @@ export default function Detail() {
           <Text className="">{product.product_name}</Text>
           <Text className="mt-5 text-base font-bold">{product.product_category}</Text>
           <Text className="mt-2 text-base">{product.product_description}</Text>
-          <Text className="mt-2 text-xl font-bold">Price: ${product.product_price}</Text>
+          <Text className="mt-2 text-xl font-bold">Preço: R${product.product_price}</Text>
           <View className="mt-5 flex-row justify-between items-center gap-5">
             <TouchableOpacity
               className="px-3 rounded-lg bg-white items-center flex-1 border-2 border-[#EF4444]"
